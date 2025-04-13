@@ -339,7 +339,6 @@ Outputs:
     Export:
       Name: !Sub ${AWS::StackName}-PrivateSubnet4
     Value: !Ref PrivateSubnet4
-    #where is this referencing to prvtsubnet in parameter or in resources?
 
   ALBSecurityGroup:
     Description: ALB Security Group
